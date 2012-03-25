@@ -405,7 +405,7 @@ int file_status_callback(const char* relativeFilePath, unsigned int gitStatus, v
 		[branches addObject:branch];
 		localBranch.remoteBranches = branches;
 	}
-
+    
     return allBranches;
 }
 

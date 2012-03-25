@@ -10,6 +10,8 @@
 
 @interface GTRepository (Tags)
 
-- (NSArray*)allTagsWithError:(NSError**)error;
+- (NSArray *)allTagNamesWithError:(NSError **)error;
+- (NSArray *)allTagsWithError:(NSError **)error;
+- (NSArray *)allTagsAsBranchesWithError:(NSError **)error;
 
 @end
